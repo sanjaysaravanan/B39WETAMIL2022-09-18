@@ -52,6 +52,20 @@ Topics:
   Netlify:
     deploy Your sight to public
 
+    Git:
+      Step1: Click Git Icon and Publish Repo
+      Step2: if not logged in loggin
+             Enter Name and click publich to Public Repo
+      Step3: Select files 
+      Step4: Repo Published
+
+    1. Add a new  site
+    2. Import from existing
+    3. Select Github
+    4. Pick your Repo
+    5. Click Deploy 
+
+
 Next Session:
   CSS-Grid
 
