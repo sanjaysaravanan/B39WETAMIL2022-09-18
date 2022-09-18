@@ -1,0 +1,72 @@
+
+Topics:
+
+  Drop-Box ---> select form element
+
+  Overflow:
+    handling overflow in an element/tag
+    visible ---> default value which make the overflow visible
+    hidden --> hides the overflowing content
+    scroll --> provides a scroll bar irrespective of overflow content
+    auto --> provides a scroll bar only when there is a overflowing content
+
+    shorthand:
+      overflow: auto scroll; ---> overflow-x: auto; overflow-y: scroll;
+
+  Measurements/Units:
+    Units used in CSS
+
+    Absolute Unit: 
+      px - pixel, pt - point, pc - picas
+      1px = 1/96th of an inch
+
+      1pt = point 1/72th of an inch
+
+      1pc = picas 12 * 1pt or 1/6th of inch
+
+    Relative Units:
+      %, vh, vw
+      % --> percent
+        1% -> one percent of the parent 
+      vh --> viewport height
+        1vh -> 1% of the view port height
+      vw --> viewport wiodth
+        1vw -> 1% of the view port width
+
+      empherical Units:
+      em, rem ---> root em
+        1rem = fontsize of the root element ( Initial Containing Block )
+        1em = fontsize of the parent element
+
+        2rem = 2 * fontsize of the root element ( Initial Containing Block )
+        2em = 2 * fontsize of the parent element
+
+  fonts: google fonts https://fonts.google.com/
+    Step1: Select a desired font family and add it to view list
+    Step2: copy link tag  wit rel styleheet
+    Step3: Paste it in the body
+    Step4: use the font-family in font-family prop
+
+  icons: fontawesome https://fontawesome.com/
+
+  Netlify:
+    deploy Your sight to public
+
+Next Session:
+  CSS-Grid
+
+  GIT & Netlify ( Last 45 Mins )
+    GIT ---> is a tool used for **Source Control Management / version control** 
+
+      U --> untracked files
+      A --> Staged/Added to the memory
+      M --> Modified
+
+
+    SCM Provider: remote
+      Github, Bitbucket, Gitlab etc...
+
+      local --> latop storage having the files (uses git for versioning)
+
+      remote --> github, bitbucket, gitlab (uses git for versioning)
+

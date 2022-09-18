@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form style="
+  border: 1px solid; 
+  border-radius: 5px; 
+  height: 150px; 
+  width: 300px;
+  text-align: center;
+  padding-top: 50px;
+  ">
+    <label for="course">Course:</label>
+    <select name="course" id="course" required>
+      <!-- value attribute is must for option element -->
+      <option value="">
+        Select a Course
+      </option>
+      <option value="python">
+        Python
+      </option>
+      <option value="javascript">
+        Java Script
+      </option>
+      <option value="go-lang">
+        Go Lang
+      </option>
+    </select>
+    <br />
+    <br />
+    <label for="courses">Courses:</label>
+    <select name="courses" id="courses" required multiple>
+      <!-- value attribute is must for option element -->
+      <!-- <option value="">
+        Select Courses
+      </option> -->
+      <option value="python">
+        Python
+      </option>
+      <option value="javascript">
+        Java Script
+      </option>
+      <option value="go-lang">
+        Go Lang
+      </option>
+    </select>
+    <br />
+    <br />
+    <label for="courses-2">Courses:</label>
+    <select name="courses-2" id="courses-2" required>
+      <!-- value attribute is must for option element -->
+      <!-- <option value="">
+        Select Courses
+      </option> -->
+      <optgroup label="Programming Language">
+      <optgroup label="Python">
+        <option value="flask">
+          Flask
+        </option>
+        <option value="django">
+          Django
+        </option>
+      </optgroup>
+      <optgroup label="Javascript">
+        <option value="react">
+          React
+        </option>
+        <option value="angular">
+          Angular
+        </option>
+      </optgroup>
+      </optgroup>
+      <optgroup label="Database">
+        <option value="My-SQL">
+          My Sql
+        </option>
+        <option value="NoSQL">
+          No Sql
+        </option>
+      </optgroup>
+    </select>
+    <br />
+    <br />
+    <input type="submit" />
+  </form>
+</body>
+
+</html>
